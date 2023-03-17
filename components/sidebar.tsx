@@ -42,7 +42,7 @@ function Logo() {
   return (
     <Link aria-label="Lee Robinson" href="/">
       <motion.svg
-        className="text-black dark:text-white h-[25px] md:h-[37px]"
+        className="text-white dark:text-white h-[25px] md:h-[37px]"
         width="25"
         height="37"
         viewBox="0 0 232 316"
@@ -64,8 +64,8 @@ function Logo() {
             stiffness: 50,
           }}
           d="M39 316V0"
-          stroke="currentColor"
           strokeWidth={78}
+          className="text-white"
         />
         <motion.path
           initial={{ x: -200, opacity: 0 }}
@@ -76,7 +76,8 @@ function Logo() {
             stiffness: 50,
           }}
           d="M232 314.998H129.852L232 232.887V314.998Z"
-          fill="currentColor"
+
+          className="text-white"
         />
       </motion.svg>
     </Link>
@@ -151,8 +152,8 @@ export default function Navbar() {
                   className={clsx(
                     'transition-all hover:text-neutral-800 dark:hover:text-neutral-200 py-[5px] px-[10px]',
                     {
-                      'text-neutral-500': !isActive,
-                      'font-bold': isActive,
+                      'text-white': !isActive,
+                      'font-bold text-white': isActive,
                     }
                   )}
                 >

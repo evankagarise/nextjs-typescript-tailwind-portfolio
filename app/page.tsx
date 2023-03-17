@@ -2,19 +2,13 @@
 
 export default function Home() {
   return (
-   <section>
+   <section className="">
     <h1 className="font-bold text-3xl font-serif text-white">Evan Kagarise</h1>
-    <p className="my-5 max-w-[460px] text-neutral-800 dark:text-neutral-200">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ad perspiciatis! Consectetur quibusdam autem, qui maiores quae sequi! Similique dolorum unde placeat nostrum nemo perspiciatis vel. Molestias magnam cum aut molestiae laudantium voluptatibus expedita maxime, numquam voluptate doloribus delectus quidem?
-    </p>
-    <p className="my-5 max-w-[460px] text-neutral-800 dark:text-neutral-200">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ad perspiciatis! Consectetur quibusdam autem, qui maiores quae sequi! Similique dolorum unde placeat nostrum nemo perspiciatis vel. Molestias magnam cum aut molestiae laudantium voluptatibus expedita maxime, numquam voluptate doloribus delectus quidem?
-    </p>
-    <p className="my-5 max-w-[460px] text-neutral-800 dark:text-neutral-200">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ad perspiciatis! Consectetur quibusdam autem, qui maiores quae sequi! Similique dolorum unde placeat nostrum nemo perspiciatis vel. Molestias magnam cum aut molestiae laudantium voluptatibus expedita maxime, numquam voluptate doloribus delectus quidem?
-    </p>
-    <div>
+    <div className="flex flex-col items-center justify-center mt-16">
+      <h2 className="text-xl text-white">I'm a </h2>
+      <h1 className="text-4xl text-white font-bold">Developer</h1>
 
+      <p className="mt-8 m-4 text-white text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus perferendis ullam repudiandae numquam, culpa dolorem dicta harum incidunt hic porro cupiditate maxime recusandae earum corporis similique laborum dignissimos, soluta fugit! Omnis cum dolorum, autem harum minus quibusdam consectetur recusandae, alias deserunt fugit ipsa architecto ut!</p>
     </div>
    </section>
   )
