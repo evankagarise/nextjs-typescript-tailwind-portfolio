@@ -7,28 +7,34 @@ import { motion } from 'framer-motion';
 
 const navItems = {
   '/': {
-    name: 'home',
+    name: 'Home',
     x: 0,
     y: 0,
     w: '64px',
   },
   '/about': {
-    name: 'about',
+    name: 'About',
     x: 64,
     y: 35,
     w: '65px',
   },
-  '/blog': {
-    name: 'blog',
+  '/skills': {
+    name: 'Skills',
     x: 127,
     y: 69,
     w: '56px',
   },
   '/projects': {
-    name: 'projects',
+    name: 'Projects',
     x: 182,
     y: 104,
     w: '100px',
+  },
+  '/blog': {
+    name: 'Blog',
+    x: 145,
+    y: 139,
+    w: '65px',
   },
 };
 
