@@ -4,7 +4,7 @@ import fs from "fs";
 import matter from 'gray-matter'
 import { Blog } from "../interfaces/Blog";
 import { remark } from "remark";
-import html from "remark-html";
+import html from "remark-Html";
 import remarkGfm from "remark-gfm";
 
 
