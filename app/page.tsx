@@ -5,7 +5,7 @@ export default function Home() {
    <section className="">
     <h1 className="font-bold text-3xl font-serif text-white">Evan Kagarise</h1>
     <div className="flex flex-col items-center justify-center mt-16">
-      <h2 className="text-xl text-white">I'm a <span> </span>
+      <h2 className="text-2xl text-white">I'm a <span> </span>
       <TypeAnimation 
             sequence={[
               'Developer',
