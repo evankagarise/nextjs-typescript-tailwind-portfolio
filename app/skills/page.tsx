@@ -3,6 +3,11 @@ import { DiJavascript1, DiCss3} from 'react-icons/di'
 import { SiNextdotjs, SiReact, SiTailwindcss, SiGraphql, SiPostgresql, SiTypescript} from 'react-icons/si'
 import {ImHtmlFive} from 'react-icons/im'
 import {AiFillGithub} from 'react-icons/ai'
+import type { Metadata } from 'next';
+export const metadata: Metadata = {
+  title: 'Skills',
+  description: 'VP of Developer Experience at Vercel.',
+};
 const page = () => {
   return (
     <div>

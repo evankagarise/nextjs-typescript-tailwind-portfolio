@@ -3,7 +3,11 @@ import { use } from "react";
 import { getBlogs } from "@/lib/blogs";
 import Image from "next/image";
 import Link from "next/link";
-
+import type { Metadata } from 'next';
+export const metadata: Metadata = {
+  title: 'Blog',
+  description: 'VP of Developer Experience at Vercel.',
+};
 async function getInitialBlogs() {
   const blogs = getBlogs();
   return blogs;
