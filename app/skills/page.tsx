@@ -1,6 +1,6 @@
 import React from 'react'
 import { DiJavascript1, DiCss3} from 'react-icons/di'
-import { SiNextdotjs, SiReact, SiTailwindcss, SiGraphql, SiPostgresql} from 'react-icons/si'
+import { SiNextdotjs, SiReact, SiTailwindcss, SiGraphql, SiPostgresql, SiTypescript} from 'react-icons/si'
 import {ImHtmlFive} from 'react-icons/im'
 import {AiFillGithub} from 'react-icons/ai'
 const page = () => {
@@ -44,7 +44,10 @@ const page = () => {
             <SiPostgresql className='text-xl' />
             <h1>PostGreSQL</h1>
             </div>
-            
+            <div className='flex gap-2 text-xl items-center bg-zinc-800 justify-center'>
+            <SiTypescript className='text-xl' />
+            <h1>Typescript</h1>
+            </div>
             
 
 
